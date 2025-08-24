@@ -14,7 +14,7 @@ import ProductOptions from "./productOptions";
 import ProductTitle from "./productTitle";
 import RelatedProducts from "./relatedProducts";
 
-const baseURL = "http://localhost:5000";
+const baseURL = "https://deploybe-kbzd.onrender.com";
 
 export default function ProductDeatail({ product, productId }) {
   const params = useParams();

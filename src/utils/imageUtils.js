@@ -6,7 +6,7 @@
  * 4. No-image placeholder
  */
 
-const baseURL = "http://localhost:5000";
+const baseURL = "https://deploybe-kbzd.onrender.com";
 
 export function getCartItemImage(item) {
   // 1. Lấy ảnh từ variant/SKU trước (ưu tiên main image)

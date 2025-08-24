@@ -320,7 +320,7 @@ const HeaderClient = () => {
                         <img
                           src={
                             item.main_image_url
-                              ? `http://localhost:5000${item.main_image_url}`
+                              ? `https://deploybe-kbzd.onrender.com${item.main_image_url}`
                               : '/default-product.png'
                           }
                           alt={item.products_name}
