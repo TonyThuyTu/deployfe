@@ -59,12 +59,12 @@ export default function BannerModal({
 
     if (type === 1) {
       // Ảnh
-      minSize = 2;   // tối thiểu 2MB
-      maxSize = 5;   // ví dụ thêm max 5MB để tránh ảnh quá nặng
+      minSize = 0;   // tối thiểu 2MB
+      maxSize = 2;   // ví dụ thêm max 5MB để tránh ảnh quá nặng
     } else {
       // Video
-      minSize = 10;  // tối thiểu 10MB
-      maxSize = 20;  // tối đa 20MB
+      minSize = 0;  // tối thiểu 10MB
+      maxSize = 10;  // tối đa 20MB
     }
 
     if (fileSizeInMB < minSize) {
