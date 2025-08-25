@@ -53,7 +53,7 @@ export default function ProductActions({
           onClick={() => onBuyNow && onBuyNow(quantity)}
           disabled={isDisabled}
         >
-          Mua ngay
+           <a href="https://zalo.me/0777527125" className="btn btn-success btn-lg">Liên Hệ</a>
         </button>
 
         <button
