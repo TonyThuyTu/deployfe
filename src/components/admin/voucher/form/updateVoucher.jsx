@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Modal, Button, Form } from 'react-bootstrap';
-import FormAdd from './FormAdd';
+import FormAdd from './UpdateModal/formAdd';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import API_CONFIG from "@/config/api";
